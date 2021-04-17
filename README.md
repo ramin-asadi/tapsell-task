@@ -1,5 +1,7 @@
-##Tapsell Task Project:<br/>
-**Keyword**: Kotlin, Maven, Spring Boot, Spring Data, MongoDB, Cache (Redis)
+
+# Tapsell Task Project:<br/>
+
+**Keywords**: Kotlin, Maven, Spring Boot, Spring Data, MongoDB, Cache (Redis)
 
 **Technology Stack:**</br>
 - java **8**
@@ -234,7 +236,7 @@ Using `@Cacheable`, the output data of the desired method is cached
 ```kotlin
 @Cacheable(value = ["getStats"], key = "{#startDate, #endDate, #type}")
     override fun getStats(startDate: Date, endDate: Date, type: Int): AppStatisticsListResponse {
-        ...
+        
     }
 ```
 <hr/>
